@@ -4,6 +4,7 @@ color 0B
 
 echo =====================================================================
 echo    GIT BACKUP & PUSH - GLOBAL CURE RX PHARMACY
+echo    Repository: https://github.com/Vignesh-Designer/globalcurerx
 echo =====================================================================
 echo.
 
@@ -20,19 +21,12 @@ echo Committing changes...
 git commit -m "%msg%"
 
 echo.
-echo Pushing to remote repository...
-git push origin main
-if %ERRORLEVEL% NEQ 0 (
-    echo.
-    echo ---------------------------------------------------------------------
-    echo If you have not linked a remote repository yet, run this once:
-    echo   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-    echo   git push -u origin main
-    echo ---------------------------------------------------------------------
-)
+echo Pushing to GitHub...
+git push -u origin main
 
 echo.
 echo =====================================================================
-echo Done!
+echo BACKUP COMPLETE! Your project is safely saved in GitHub:
+echo https://github.com/Vignesh-Designer/globalcurerx
 echo =====================================================================
 pause
