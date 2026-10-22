@@ -1,0 +1,16 @@
+{
+  "name": "global-cure-rx-pharmacy",
+  "version": "1.0.0",
+  "description": "Global Cure RX Pharmacy LLC - Full Stack E-commerce Application",
+  "scripts": {
+    "start": "concurrently \"npm --prefix backend start\" \"npm --prefix frontend start\"",
+    "dev": "concurrently \"npm --prefix backend start\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "ssh2": "^1.17.0"
+  }
+}

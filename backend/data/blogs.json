@@ -1,0 +1,26 @@
+[
+  {
+    "id": "blog-1",
+    "title": "The ENT specialist",
+    "date": "Jan 18",
+    "image": "/uploads/1791440995601_lucas-vasques-9vnACvX2748-unsplash.jpg",
+    "summary": "Essential diagnostic equipment every modern Ear, Nose, and Throat clinic needs for precision patient care.",
+    "content": "Modern ENT specialists rely on advanced illumination and endoscopy tools to diagnose complex conditions accurately. Global Cure RX supplies leading-edge diagnostic sets certified to international standards."
+  },
+  {
+    "id": "blog-2",
+    "title": "The blood sample",
+    "date": "Jan 18",
+    "image": "/uploads/1791441002095_ani-kolleshi-7jjnJ-QA9fY-unsplash.jpg",
+    "summary": "Best practices for sterile vacutainer tube handling, phlebotomy hygiene, and preventing sample contamination.",
+    "content": "Safe phlebotomy requires precision and adherence to strict sterile protocols. Our collection tubes and safety needles protect both the healthcare worker and patient integrity."
+  },
+  {
+    "id": "blog-3",
+    "title": "Stethoscope and notepad",
+    "date": "Jan 18",
+    "image": "/uploads/1791441010636_roberto-sorin-RS0-h_pyByk-unsplash.jpg",
+    "summary": "Choosing the optimal acoustic stethoscope: high-frequency cardiac auscultation vs pediatric general practice.",
+    "content": "The iconic stethoscope remains the physician's first line of physical examination. Discover our range of acoustic and electronic amplification stethoscopes designed for crystal clear heart and lung sounds."
+  }
+]

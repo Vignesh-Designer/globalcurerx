@@ -1,0 +1,35 @@
+[
+  {
+    "id": "banner-1",
+    "title": "At Global Cure RX Pharmacy LLC",
+    "subtitle": "We believe access to quality healthcare products should be simple, reliable and convenient.",
+    "desktopImage": "/banners/banner1_desktop.png",
+    "mobileImage": "/banners/banner1_mobile.png",
+    "ctaText": "Shop Equipment",
+    "ctaLink": "#products",
+    "active": true,
+    "order": 1
+  },
+  {
+    "id": "banner-2",
+    "title": "Certified Medical Supplies & Equipment",
+    "subtitle": "Advanced Medical Equipment for Quality Patient Care The Right Equipment. The Best Care. Better Patient Outcomes.\n\nAt CareHub Healthcare, we are committed to supporting quality healthcare with reliable medical equipment and essential patient-care solutions for home healthcare and rehabilitation services.",
+    "desktopImage": "/uploads/1792066012602_new_22.png",
+    "mobileImage": "/uploads/1792063921529_mobile.png",
+    "ctaText": "Browse Supplies",
+    "ctaLink": "#products",
+    "active": true,
+    "order": 2
+  },
+  {
+    "id": "banner-3",
+    "title": "Fast Delivery & Instant WhatsApp Ordering",
+    "subtitle": "Medical Consumables\n\nEssential Supplies for Safe & Effective Care\n\nQuality Medical Supplies for Hospitals, Clinics & Home Healthcare\n\nAt CareHub Healthcare, we support healthcare professionals and care providers with essential medical consumables for a wide range of healthcare needs. We aim to make quality medical supplies accessible for hospitals, clinics, home healthcare services, and rehabilitation facilities.",
+    "desktopImage": "/uploads/1792065475064_Medical_Consumables__Essential_Care_Supplies.png",
+    "mobileImage": "/uploads/1792065507305_Essential_Medical_Consumables_for_Safe_Care.png",
+    "ctaText": "Order Now",
+    "ctaLink": "#products",
+    "active": true,
+    "order": 3
+  }
+]
