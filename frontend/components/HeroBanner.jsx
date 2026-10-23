@@ -9,34 +9,40 @@ export default function HeroBanner() {
   const [isPaused, setIsPaused] = useState(false);
   const timerRef = useRef(null);
 
-  // Default fallback banners matching user reference
+  // Default fallback banners matching active banners
   const fallbackBanners = [
     {
       id: 'banner-1',
       title: 'At Global Cure RX Pharmacy LLC',
-      subtitle: 'we believe access to quality healthcare products should be simple, reliable and convenient.',
-      desktopImage: '/banners/banner_original.png',
+      subtitle: 'We believe access to quality healthcare products should be simple, reliable and convenient.',
+      desktopImage: '/banners/banner1_desktop.png',
       mobileImage: '/banners/banner1_mobile.png',
-      ctaText: 'Explore Products',
-      ctaLink: '#products'
+      ctaText: 'Shop Equipment',
+      ctaLink: '#products',
+      active: true,
+      order: 1
     },
     {
       id: 'banner-2',
-      title: 'Certified Medical Supplies & Diagnostic Tools',
-      subtitle: 'Surgical instruments, sterile consumables, and clinical monitoring devices delivered to your door.',
-      desktopImage: '/banners/banner1_desktop.png',
-      mobileImage: '/banners/banner1_mobile.png',
-      ctaText: 'Shop Now',
-      ctaLink: '#products'
+      title: 'Certified Medical Supplies & Equipment',
+      subtitle: 'Advanced Medical Equipment for Quality Patient Care The Right Equipment. The Best Care. Better Patient Outcomes.',
+      desktopImage: '/uploads/1792066012602_new_22.png',
+      mobileImage: '/uploads/1792063921529_mobile.png',
+      ctaText: 'Browse Supplies',
+      ctaLink: '#products',
+      active: true,
+      order: 2
     },
     {
       id: 'banner-3',
-      title: 'Quick WhatsApp Ordering & Expert Support',
-      subtitle: 'Browse your essentials, add to cart, and send directly via WhatsApp for lightning-fast dispatch.',
-      desktopImage: '/banners/banner1_desktop.png',
-      mobileImage: '/banners/banner1_mobile.png',
-      ctaText: 'Order On WhatsApp',
-      ctaLink: '#products'
+      title: 'Fast Delivery & Instant WhatsApp Ordering',
+      subtitle: 'Medical Consumables - Essential Supplies for Safe & Effective Care',
+      desktopImage: '/uploads/1792065475064_Medical_Consumables__Essential_Care_Supplies.png',
+      mobileImage: '/uploads/1792065507305_Essential_Medical_Consumables_for_Safe_Care.png',
+      ctaText: 'Order Now',
+      ctaLink: '#products',
+      active: true,
+      order: 3
     }
   ];
 

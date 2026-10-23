@@ -25,7 +25,8 @@ export const metadata = {
     'cosmetics and personal care dubai',
     'wellness essentials uae',
     'dubai pharmacy delivery',
-    'al hudaiba pharmacy dubai',
+    'warsan pharmacy dubai',
+    'international city pharmacy dubai',
     'whatsapp medicine order dubai',
     'pharmacy near me dubai',
     'healthcare products uae'

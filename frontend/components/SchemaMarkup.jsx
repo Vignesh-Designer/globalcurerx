@@ -21,14 +21,14 @@ export default function SchemaMarkup() {
     "name": "Global Cure RX Pharmacy LLC",
     "alternateName": "Global Healthcare Pharmacy LLC",
     "url": "https://globalcurerx.com",
-    "logo": "https://globalcurerx.com/logo.png",
-    "image": "https://globalcurerx.com/banners/banner_original.png",
+    "logo": "https://globalcurerx.com/uploads/1791916790068_Artboard_3_copy_3x-100.jpg",
+    "image": "https://globalcurerx.com/banners/banner1_desktop.png",
     "description": "Licensed community & clinical pharmacy in Dubai, UAE offering genuine prescription medicines, surgical instruments, medical consumables, wellness vitamins, and equipment.",
     "telephone": "+971 50 515 2391",
     "email": "Info@globalcurerx.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Shop No: 02, Al Hudaiba",
+      "streetAddress": "Shop Number 22, Ground Floor, Building P-15 (France P-15), France Cluster, Warsan 1 / International City",
       "addressLocality": "Dubai",
       "addressRegion": "Dubai",
       "postalCode": "101892",
@@ -36,10 +36,10 @@ export default function SchemaMarkup() {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 25.2415,
-      "longitude": 55.2818
+      "latitude": 25.1612,
+      "longitude": 55.4068
     },
-    "hasMap": "https://maps.google.com/?q=Al+Hudaiba+Dubai",
+    "hasMap": "https://maps.google.com/?q=France+Cluster+Warsan+1+International+City+Dubai",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

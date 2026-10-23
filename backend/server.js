@@ -65,12 +65,12 @@ const defaultSettings = {
   phone: "+971 50 515 2391",
   whatsapp: "+971 50 515 2391",
   email: "Info@globalcurerx.com",
-  address: "Global Healthcare Pharmacy LLC, Shop No: 02, Al Hudaiba, Dubai, UAE",
-  poBox: "PO Box: 101892",
+  address: "Shop Number 22, Ground Floor, Building P-15 (France P-15), France Cluster, Warsan 1 / International City, Dubai, United Arab Emirates.",
+  poBox: "",
   currency: "AED",
-  topAnnouncement: "Welcome to Global Healthcare",
+  topAnnouncement: "Welcome to Global Cure Rx Pharmacy LLC",
   autoScrollInterval: 4000, // 4 seconds auto scroll for banners
-  logoUrl: ""
+  logoUrl: "/uploads/1791916790068_Artboard_3_copy_3x-100.jpg"
 };
 
 const defaultBanners = [

@@ -71,31 +71,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-2.5 flex items-center justify-between">
         {/* Left: Logo */}
         <Link href="/" className="flex items-center space-x-2.5 group shrink-0">
-          {settings?.logoUrl ? (
-            <img
-              src={settings.logoUrl}
-              alt={settings.storeName || 'Global Cure RX Pharmacy'}
-              className="h-11 sm:h-14 md:h-[70px] max-w-[170px] sm:max-w-[220px] object-contain group-hover:scale-105 transition-transform"
-            />
-          ) : (
-            <>
-              <div className="w-9 h-9 rounded-full bg-[#e6f4f8] flex items-center justify-center text-[#0284c7] group-hover:scale-105 transition-transform">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 4V20M4 12H20" stroke="#0284c7" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </div>
-              <div>
-                <div className="flex items-center space-x-1">
-                  <span className="text-xl sm:text-2xl font-black tracking-tight text-[#002b5c]">
-                    KURE
-                  </span>
-                </div>
-                <p className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider -mt-1 hidden sm:block">
-                  Global Cure RX Pharmacy
-                </p>
-              </div>
-            </>
-          )}
+          <img
+            src={settings?.logoUrl || '/uploads/1791916790068_Artboard_3_copy_3x-100.jpg'}
+            alt={settings?.storeName || 'Global Cure RX Pharmacy'}
+            className="h-11 sm:h-14 md:h-[70px] max-w-[170px] sm:max-w-[220px] object-contain group-hover:scale-105 transition-transform"
+          />
         </Link>
 
         {/* Center / Desktop Links (hidden on mobile, visible on md and up) */}

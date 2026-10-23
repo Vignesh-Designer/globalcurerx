@@ -78,7 +78,7 @@ const FAQ_DATA = [
     category: 'delivery',
     categoryLabel: 'Delivery Areas',
     question: 'Do you deliver across Dubai and all other Emirates in the UAE?',
-    answer: 'Yes! We offer express delivery across all areas of Dubai—including Al Hudaiba, Jumeirah, Downtown, Business Bay, Deira, Bur Dubai, Dubai Marina, and Arabian Ranches. We also deliver across all 7 Emirates: Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Umm Al Quwain, and Fujairah using reliable, temperature-monitored medical delivery couriers.'
+    answer: 'Yes! We offer express delivery across all areas of Dubai—including Warsan, International City, Al Hudaiba, Jumeirah, Downtown, Business Bay, Deira, Bur Dubai, Dubai Marina, and Arabian Ranches. We also deliver across all 7 Emirates: Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Umm Al Quwain, and Fujairah using reliable, temperature-monitored medical delivery couriers.'
   },
   {
     id: 'faq-10',

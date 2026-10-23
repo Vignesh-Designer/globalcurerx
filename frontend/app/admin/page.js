@@ -83,12 +83,12 @@ export default function AdminPage() {
     phone: "+971 50 515 2391",
     whatsapp: "+971 50 515 2391",
     email: "Info@globalcurerx.com",
-    address: "Global Healthcare Pharmacy LLC, Shop No: 02, Al Hudaiba, Dubai, UAE",
-    poBox: "PO Box: 101892",
+    address: "Shop Number 22, Ground Floor, Building P-15 (France P-15), France Cluster, Warsan 1 / International City, Dubai, United Arab Emirates.",
+    poBox: "",
     currency: "AED",
-    topAnnouncement: "Welcome to Global Healthcare",
+    topAnnouncement: "Welcome to Global Cure Rx Pharmacy LLC",
     autoScrollInterval: 4000,
-    logoUrl: ""
+    logoUrl: "/uploads/1791916790068_Artboard_3_copy_3x-100.jpg"
   });
   const [uploadingLogo, setUploadingLogo] = useState(false);
 
@@ -405,9 +405,9 @@ export default function AdminPage() {
     }
   };
 
-  // Reset Logo to Default KURE Badge
+  // Reset Logo to Default Official Badge
   const handleResetLogo = async () => {
-    const updatedSettings = { ...settings, logoUrl: '' };
+    const updatedSettings = { ...settings, logoUrl: '/uploads/1791916790068_Artboard_3_copy_3x-100.jpg' };
     setSettings(updatedSettings);
     try {
       await fetch('/api/settings', {
@@ -415,7 +415,7 @@ export default function AdminPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(updatedSettings)
       });
-      showToast('Restored default KURE logo');
+      showToast('Restored official RX logo');
     } catch (err) {
       showToast('Error resetting logo', 'error');
     }
@@ -1232,17 +1232,11 @@ export default function AdminPage() {
                         className="max-h-[70px] max-w-[220px] object-contain"
                       />
                     ) : (
-                      <div className="flex items-center space-x-2 text-slate-400">
-                        <div className="w-8 h-8 rounded-full bg-[#e6f4f8] flex items-center justify-center text-[#0284c7]">
-                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                            <path d="M12 4V20M4 12H20" stroke="#0284c7" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                          </svg>
-                        </div>
-                        <div className="text-left">
-                          <span className="text-base font-black text-[#002b5c] block leading-none">KURE</span>
-                          <span className="text-[9px] text-slate-400 uppercase font-semibold">Default Logo</span>
-                        </div>
-                      </div>
+                      <img
+                        src="/uploads/1791916790068_Artboard_3_copy_3x-100.jpg"
+                        alt="Default Logo"
+                        className="max-h-[70px] max-w-[220px] object-contain"
+                      />
                     )}
                   </div>
 
