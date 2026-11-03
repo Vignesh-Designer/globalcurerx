@@ -108,9 +108,9 @@ export default function HeroBanner() {
               {/* Desktop View Banner */}
               <div className="hidden md:flex w-full h-full items-center justify-between p-8 lg:p-12">
                 <div className="max-w-xl z-20 space-y-4">
-                  <h1 className="text-2xl lg:text-3xl font-extrabold text-white leading-tight">
+                  <p className="text-2xl lg:text-3xl font-extrabold text-white leading-tight">
                     {banner.title}
-                  </h1>
+                  </p>
                   <p className="text-sm lg:text-base text-slate-200 leading-relaxed font-normal">
                     {banner.subtitle}
                   </p>
@@ -150,9 +150,9 @@ export default function HeroBanner() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002b5c] via-[#002b5c]/70 to-transparent"></div>
                 <div className="relative z-20 space-y-2">
-                  <h1 className="text-lg sm:text-xl font-bold text-white leading-snug">
+                  <p className="text-lg sm:text-xl font-bold text-white leading-snug">
                     {banner.title}
-                  </h1>
+                  </p>
                   <p className="text-xs text-slate-200 line-clamp-3 leading-relaxed">
                     {banner.subtitle}
                   </p>

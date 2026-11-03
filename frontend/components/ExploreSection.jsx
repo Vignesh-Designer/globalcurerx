@@ -69,9 +69,9 @@ export default function ExploreSection({ onSelectProduct }) {
     <section id="products" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 scroll-mt-20">
       {/* Section Header */}
       <div className="text-center max-w-2xl mx-auto space-y-3 mb-8">
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-[#002b5c] tracking-tight">
-          Explore Healthcare Made Convenient
-        </h2>
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-[#002b5c] tracking-tight">
+          Online Pharmacy and Medical Supplies
+        </h1>
         <p className="text-xs sm:text-sm text-slate-500 leading-relaxed font-normal">
           Whether you are looking for everyday wellness essentials, personal care products, medical supplies or healthcare equipment, Global Cure RX Pharmacy is here to make your shopping experience easier.
         </p>
