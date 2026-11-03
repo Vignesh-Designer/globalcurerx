@@ -6,8 +6,8 @@ import SchemaMarkup from '../components/SchemaMarkup';
 export const metadata = {
   metadataBase: new URL('https://globalcurerx.com'),
   title: {
-    default: 'Global Cure RX Pharmacy LLC | Online Pharmacy & Medical Supplies Dubai UAE',
-    template: '%s | Global Cure RX Pharmacy LLC'
+    default: 'Online Pharmacy in Dubai | Global Cure RX Pharmacy',
+    template: '%s | Global Cure RX Pharmacy'
   },
   description: 'Licensed community and clinical pharmacy in Dubai, UAE. Order genuine prescription medicines, surgical instruments, medical consumables, wellness vitamins, and equipment online with express WhatsApp ordering and fast delivery across Dubai and UAE.',
   keywords: [
